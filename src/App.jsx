@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiSearch } from 'react-icons/fi';
+import SearchIcon from '@mui/icons-material/Search';
 import './style.css';
 
 import api from './services/api';
@@ -43,7 +43,7 @@ function App() {
           />
 
           <button className="buttonSearch" type="button" onClick={handleSearch}>
-            <FiSearch size={12} color="#000" />
+            <SearchIcon size={12} color="#000" />
           </button>
 
         </div>
